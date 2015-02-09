@@ -1,0 +1,46 @@
+The reason for one of the json's starting with 1 is to ensure it gets loaded first before other mods that depend on it.
+
+
+Drop rate info for items that had it. Leaving it in the .json caused issues. To be removed when drops properly added into mod.
+    
+    {
+	"comment": "drops: , 5; , 5;  3;  10; 6; lab_dorm, 6"
+	"id": "vibrator",    
+    {
+    
+
+    {
+	"comment" : "drop rate: , 4; , 4; lab_dorm, 4; arcade_prizes, 5; toy_store, 5"
+        "type" : "ARMOR",
+        "id" : " wolfsuit"
+
+    
+    {
+	"comment" : "drop rates: , 4; , 4; lab_dorm, 4; arcade_prizes, 5; pizza_locker, 7; toy_store, 5"
+        "type" : "ARMOR",
+        "id" : "dinosuit",
+    {
+	"comment" : "drop rates: , 5; allclothes, 1; cop_evidence, 1; lab_dorm, 5; survivorzed_suits, 1"
+        "type" : "ARMOR",
+        "id" : "bondage_suit",
+    
+    {
+	"comment" : "drop rates: , 5; allclothes, 1; cop_evidence, 1; lab_dorm, 5; survivorzed_head, 1"
+        "type" : "ARMOR",
+        "id" : "bondage_mask",
+    {
+	"comment" : "drop rates: , 15; allclothes, 10; lab_dorm, 15; survivorzed_tops, 1"
+        "type" : "ARMOR",
+        "id" : "corset",
+    
+    {
+	"comment" : "drop rates:, 3; , 3; allclothes, 3"
+        "type" : "ARMOR",
+        "id" : "maid_dress",   
+}
+{
+	"comment" : "drop rates: 3; , 3; allclothes, 3"
+        "type" : "ARMOR",
+        "id" : "maid_hat",
+   } 
+   

@@ -1,0 +1,74 @@
+[
+    {
+	"type" : "item_group",
+	"id" : "bedroom",
+	"items":[
+            ["vibrator", 5],
+            ["wolfsuit", 4],
+	    ["dinosuit", 4],
+	    ["bondage_suit", 5],
+	    ["bondage_mask", 5],
+	    ["corset", 15],
+	    ["maid_dress", 3],
+	    ["maid_hat", 3]
+	]
+    },
+
+    {
+	"type" : "item_group",
+	"id" : "dresser",
+	"items":[
+	    ["vibrator", 5],
+	    ["wolfsuit", 4],
+	    ["dinosuit", 4],
+	    ["maid_dress", 3],
+	    ["maid_hat", 3]
+	]
+    },
+
+
+    {
+	"type" : "item_group",
+	"id" : "behindcounter",
+	"items":[
+	    ["vibrator", 3]
+	]
+    },
+
+
+    {
+	"type" : "item_group",
+	"id" : "consumer_electronics",
+	"items":[
+	    ["vibrator", 10]
+	]
+    },
+
+
+    {
+	"type" : "item_group",
+	"id" : "pawn",
+	"items":[
+	    ["vibrator", 6],
+	    ["maid_dress", 3],
+	    ["maid_hat", 3]
+	]
+    },
+
+
+    {
+	"type" : "item_group",
+	"id" : "lab_dorm",
+	"items":[
+	    ["vibrator", 6],
+	    ["wolfsuit", 4],
+	    ["dinosuit", 4],
+	    ["bondage_suit", 5],
+	    ["bondage_mask", 5],
+	    ["maid_dress", 3],
+	    ["maid_hat", 3]
+	]
+    },
+    
+    
+]
