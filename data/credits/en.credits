@@ -2,10 +2,10 @@
 # Max length of a line is 72 characters; the following line is for reference
 ########################################################################
 Original author:    Project Manager:    Website/Forum:
-Whales (retired)    KevinGranade        GlyphGryph
+Whales (retired)    Omgaar              8ch.net/vg/
 
 Current Main Developers/Github Managers:
-KevinGranade, Rivet-the-Zombie, KA101, BevapDin
+Omgaar
 
 Special thanks to:
 Narc - For setting up the automatic Jenkins build-bot.
@@ -15,5 +15,5 @@ i2amroy - For several large infrastructural overhauls.
 HuXTUS - For a huge amount of amazing content.
 
 For a full list of contributors please see:
-https://github.com/CleverRaven/Cataclysm-DDA/contributors
-Cataclysm: Dark Days Ahead is released under CC-BY-SA 3.0.
+https://github.com/Omgaar/Cataclysm-Exodus/contributors
+Cataclysm: Exodus is released under CC-BY-SA 3.0.
