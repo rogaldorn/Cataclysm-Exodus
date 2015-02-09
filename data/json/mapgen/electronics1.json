@@ -38,8 +38,7 @@
             ["cell_phone", 60],
             ["mp3", 65],
             ["pda", 20],
-            ["radio_car_box", 35],
-            ["vibrator", 1]
+            ["radio_car_box", 35]
         ]
     },{
         "type"  : "item_group",
