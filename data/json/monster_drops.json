@@ -27,12 +27,26 @@
             [ "tools", 20 ],
             [ "trash", 7 ],
             [ "ammo", 1 ],
-            [ "pistols", 1 ],
-            [ "shotguns", 1 ],
-            [ "smg", 1 ],
             [ "home_hw", 5 ],
             [ "postman_gear", 5]
-        ]
+        ],
+		"entries": [
+			{ "distribution": [
+				{"group": "pistols", "charges-min": 5, "charges-max": 30, "prob": 1 },
+				{"group": "pistols", "charges-min": 0, "charges-max": 5, "prob": 2 },
+				{"group": "pistols", "prob": 9 }
+			], "prob": 1 },
+			{ "distribution": [
+				{"group": "shotguns", "charges-min": 5, "charges-max": 30, "prob": 1 },
+				{"group": "shotguns", "charges-min": 0, "charges-max": 5, "prob": 2 },
+				{"group": "shotguns", "prob": 9 }
+			], "prob": 1 },
+			{ "distribution": [
+				{"group": "smg", "charges-min": 10, "charges-max": 50, "prob": 1 },
+				{"group": "smg", "charges-min": 0, "charges-max": 10, "prob": 2 },
+				{"group": "smg", "prob": 9 }
+			], "prob": 1 }
+		]
     },
     {
         "type" : "item_group",
@@ -117,12 +131,28 @@
             { "group": "underwear", "damage-min": 1, "damage-max": 4 },
             { "distribution": [
                 { "group": "ammo", "prob": 10 },
-                { "group": "pistols", "prob": 5 },
-                { "group": "shotguns", "prob": 2 },
-                { "group": "smg", "prob": 5 },
+				{ "distribution": [
+					{"group": "pistols", "charges-min": 5, "charges-max": 30, "prob": 1 },
+					{"group": "pistols", "charges-min": 0, "charges-max": 10, "prob": 2 },
+					{"group": "pistols", "prob": 6 }
+				], "prob": 5 },				
+				{ "distribution": [
+					{"group": "shotguns", "charges-min": 5, "charges-max": 30, "prob": 1 },
+					{"group": "shotguns", "charges-min": 0, "charges-max": 5, "prob": 2 },
+					{"group": "shotguns", "prob": 6 }
+				], "prob": 2 },
+				{ "distribution": [
+					{"group": "smg", "charges-min": 10, "charges-max": 50, "prob": 1 },
+					{"group": "smg", "charges-min": 0, "charges-max": 10, "prob": 2 },
+					{"group": "smg", "prob": 6 }
+				], "prob": 5 },
                 { "group": "bots", "prob": 1 },
                 { "group": "launchers", "prob": 2 },
-                { "group": "mil_rifles", "prob": 10 },
+				{ "distribution": [
+					{"group": "mil_rifles", "charges-min": 10, "charges-max": 50, "prob": 1 },
+					{"group": "mil_rifles", "charges-min": 0, "charges-max": 10, "prob": 2 },
+					{"group": "mil_rifles", "prob": 6 }
+				], "prob": 10 },
                 { "group": "grenades", "prob": 5 },
                 { "group": "mil_accessories", "prob": 10 },
                 { "group": "mil_food", "prob": 5 },
@@ -182,11 +212,27 @@
             { "group": "underwear", "damage-min": 1, "damage-max": 4 },
             { "distribution": [
                 { "group": "ammo", "prob": 15 },
-                { "group": "pistols", "prob": 5 },
-                { "group": "shotguns", "prob": 4 },
-                { "group": "smg", "prob": 5 },
+				{ "distribution": [
+					{"group": "pistols", "charges-min": 5, "charges-max": 30, "prob": 1 },
+					{"group": "pistols", "charges-min": 0, "charges-max": 10, "prob": 2 },
+					{"group": "pistols", "prob": 6 }
+				], "prob": 5 },	
+				{ "distribution": [
+					{"group": "shotguns", "charges-min": 5, "charges-max": 30, "prob": 1 },
+					{"group": "shotguns", "charges-min": 0, "charges-max": 5, "prob": 2 },
+					{"group": "shotguns", "prob": 6 }
+				], "prob": 4 },
+				{ "distribution": [
+					{"group": "smg", "charges-min": 10, "charges-max": 50, "prob": 1 },
+					{"group": "smg", "charges-min": 0, "charges-max": 10, "prob": 2 },
+					{"group": "smg", "prob": 6 }
+				], "prob": 5 },
                 { "group": "bots", "prob": 1 },
-                { "group": "mil_rifles", "prob": 10 },
+				{ "distribution": [
+					{"group": "mil_rifles", "charges-min": 10, "charges-max": 50, "prob": 1 },
+					{"group": "mil_rifles", "charges-min": 0, "charges-max": 10, "prob": 2 },
+					{"group": "mil_rifles", "prob": 6 }
+				], "prob": 10 },
                 { "group": "grenades", "prob": 5 },
                 { "group": "mil_accessories", "prob": 10 },
                 { "group": "mil_food", "prob": 5 },
@@ -249,9 +295,17 @@
                 "damage-min": 1, "damage-max": 4
             },
             { "distribution": [
-                { "group": "allguns", "prob": 24 },
+				{ "distribution": [
+					{"group": "allguns", "charges-min": 30, "charges-max": 75, "prob": 1 },
+					{"group": "allguns", "charges-min": 10, "charges-max": 30, "prob": 1 },
+					{"group": "allguns", "charges-min": 0, "charges-max": 10, "prob": 2 },
+					{"group": "allguns", "prob": 12 }
+				], "prob": 24 },
                 { "group": "grenades", "prob": 10 },
-                { "group": "mil_rifles", "prob": 8 },
+				{"group": "mil_rifles", "charges-min": 10, "charges-max": 50, "prob": 1 },
+					{"group": "mil_rifles", "charges-min": 0, "charges-max": 10, "prob": 2 },
+					{"group": "mil_rifles", "prob": 9 }
+				], "prob": 8 },
                 { "group": "mil_hw", "prob": 1 },
                 { "group": "launchers", "prob": 1 },
                 { "group": "gunxtras", "prob": 14 },
