@@ -50,7 +50,7 @@ void game::print_menu(WINDOW *w_open, int iSel, const int iMenuOffsetX, int iMen
     }
 
     center_print(w_open, window_height - 1, c_red,
-                 _("Please report bugs to kevin.granade@gmail.com or post on the forums."));
+                 _("Please report bugs to the github."));
 
     int iLine = 0;
     const int iOffsetX = (window_width - FULL_SCREEN_WIDTH) / 2;

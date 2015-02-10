@@ -1,1 +1,1 @@
-#define VERSION "c61942b"
+#define VERSION "0.B"
