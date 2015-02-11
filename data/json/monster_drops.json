@@ -302,7 +302,8 @@
 					{"group": "allguns", "prob": 12 }
 				], "prob": 24 },
                 { "group": "grenades", "prob": 10 },
-				{"group": "mil_rifles", "charges-min": 10, "charges-max": 50, "prob": 1 },
+				{ "distribution": [
+					{"group": "mil_rifles", "charges-min": 10, "charges-max": 50, "prob": 1 },
 					{"group": "mil_rifles", "charges-min": 0, "charges-max": 10, "prob": 2 },
 					{"group": "mil_rifles", "prob": 9 }
 				], "prob": 8 },
