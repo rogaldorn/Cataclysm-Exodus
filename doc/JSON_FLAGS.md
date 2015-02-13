@@ -248,6 +248,7 @@ Some special attacks are also valid use actions for tools and weapons.
 - ```SHRIEK``` "a terrible shriek!"
 - ```HOWL``` "an ear-piercing howl!"
 - ```RATTLE``` "a sibilant rattling sound!"
+- ```BABYBABBLE```  Makes noise like a zombie baby would.
 - ```ACID``` Spit acid.
 - ```SHOCKSTORM``` Shoots bolts of lightning.
 - ```PULL_METAL_WEAPON``` Pull weapon that's made of iron or steel from the player's hand.
