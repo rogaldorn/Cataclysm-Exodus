@@ -178,6 +178,23 @@ void mattack::rattle(monster *z, int index)
     sounds::sound(z->posx(), z->posy(), 10, _("a sibilant rattling sound!"));
 }
 
+void mattack::babybabble(monster *z, int index)
+{
+
+    Creature *target = z->attack_target();
+    if( target == nullptr ||
+        rl_dist( z->posx(), z->posy(), target->posx(), target->posy() ) > 10 ||
+        !z->sees( *target ) ) { // will cry if no target
+        z->moves -= 50;   // regular intervals
+        z->reset_special(index); // Reset timer
+        sounds::sound(z->posx(), z->posy(), 30, _("a baby crying."));
+        return; }
+
+    z->moves -= 200;  // it takes a while
+    z->reset_special(index); // Reset timer
+    sounds::sound(z->posx(), z->posy(), 50, _("a loud squeal!"));
+}
+
 void mattack::acid(monster *z, int index)
 {
     Creature *target = z->attack_target();
